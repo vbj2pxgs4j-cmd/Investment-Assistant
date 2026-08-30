@@ -14,8 +14,11 @@ from backend.app.schemas.generation import GenerationInput
 
 @pytest.fixture
 def generator() -> GroundedGenerator:
-    # Generator without Groq key operates in deterministic fallback mode
-    return GroundedGenerator()
+    # Generator configured in deterministic fallback mode
+    gen = GroundedGenerator()
+    gen.settings.groq_api_key = ""
+    gen.client = None
+    return gen
 
 
 @pytest.mark.asyncio

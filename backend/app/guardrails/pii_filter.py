@@ -18,7 +18,10 @@ class PIIFilter:
     AADHAAR_PATTERN = re.compile(r"\b[2-9]\d{3}[\s-]?[0-9]{4}[\s-]?[0-9]{4}\b")
     PHONE_PATTERN = re.compile(r"\b(?:\+91[\s-]?)?[6-9]\d{9}\b")
     EMAIL_PATTERN = re.compile(r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b")
-    OTP_PATTERN = re.compile(r"\b(?:otp|one[\s-]time[\s-]password|verification[\s-]code|pin)[\s:]*([0-9]{4,6})\b", re.IGNORECASE)
+    OTP_PATTERN = re.compile(
+        r"\b(?:otp|one[\s-]time[\s-]password|verification[\s-]code|security[\s-]code|auth[\s-]code|pin)\b[^\d\n]{0,25}\b([0-9]{4,8})\b",
+        re.IGNORECASE,
+    )
     ACCOUNT_PATTERN = re.compile(r"\b(?:a/c|account|folio|acc)[\s#:]*([0-9]{8,18})\b", re.IGNORECASE)
 
     # Obfuscated / Compressed Patterns (spaces/hyphens removed)

@@ -75,14 +75,23 @@ elif frontend_dist_dir.exists():
 @app.exception_handler(RequestValidationError)
 async def validation_exception_handler(request: Request, exc: RequestValidationError) -> JSONResponse:
     """Standardized validation error handler."""
-    errors = exc.errors()
-    error_msg = errors[0].get("msg", "Invalid request parameter") if errors else "Validation error"
+    raw_errors = exc.errors()
+    error_msg = raw_errors[0].get("msg", "Invalid request parameter") if raw_errors else "Validation error"
+    safe_errors = []
+    for err in raw_errors:
+        safe_errors.append({
+            "type": str(err.get("type", "value_error")),
+            "loc": [str(x) for x in err.get("loc", [])],
+            "msg": str(err.get("msg", "")),
+            "input": str(err.get("input", "")),
+        })
+
     return JSONResponse(
         status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
         content={
             "detail": error_msg,
             "error_type": "validation_error",
-            "errors": errors,
+            "errors": safe_errors,
         },
     )
 

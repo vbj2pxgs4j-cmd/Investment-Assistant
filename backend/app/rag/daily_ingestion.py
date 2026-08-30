@@ -111,11 +111,13 @@ class DailyIngestionPipeline:
         # -------------------------------------------------------------------------
         s3_start = time.perf_counter()
         logger.info("[Stage 3/5] Generating atomic knowledge chunks in data/processed/chunks.json...")
-        chunks_collection = self.chunker.save_chunks()
+        chunks_collection = self.chunker.chunk_all()
+        chunks_path = self.chunker.save_chunks(chunks_collection)
         s3_duration = round((time.perf_counter() - s3_start) * 1000, 2)
         metrics["stages"]["chunking"] = {
             "status": "success",
             "total_chunks": chunks_collection.total_chunks,
+            "output_file": str(chunks_path.relative_to(PROJECT_ROOT)),
             "duration_ms": s3_duration,
         }
         logger.info("Stage 3 completed in %.2f ms (%d chunks created).", s3_duration, chunks_collection.total_chunks)
@@ -127,10 +129,12 @@ class DailyIngestionPipeline:
         logger.info("[Stage 4/5] Executing data validation barrier against chunks...")
         try:
             validation_report = self.validator.validate()
+            if isinstance(validation_report, dict) and validation_report.get("is_valid") is False:
+                raise ValueError(f"Corpus validation errors: {validation_report.get('errors')}")
             s4_duration = round((time.perf_counter() - s4_start) * 1000, 2)
             metrics["stages"]["validation"] = {
                 "status": "success",
-                "total_validated": validation_report.get("total_chunks", 38),
+                "total_validated": validation_report.get("total_chunks", 38) if isinstance(validation_report, dict) else 38,
                 "duration_ms": s4_duration,
             }
             logger.info("Stage 4 completed in %.2f ms (Validation Passed: 100%% compliant).", s4_duration)

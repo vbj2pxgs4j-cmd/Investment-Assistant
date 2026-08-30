@@ -20,28 +20,34 @@ class OutputValidator:
 
     @staticmethod
     def split_into_sentences(text: str) -> List[str]:
-        """Split text into semantic sentences while protecting financial abbreviations.
+        """Split text into semantic sentences while protecting financial abbreviations and numbers.
         
-        Protects: Rs., min., max., approx., e.g., i.e., vs., reg., TER., No., etc.
+        Protects: Rs., min., max., approx., e.g., i.e., vs., reg., mo., TER., No., decimal numbers, etc.
         """
-        # Protect known abbreviations
-        abbrev_pattern = (
-            r"(?<!\bRs)"
-            r"(?<!\bmin)"
-            r"(?<!\bmax)"
-            r"(?<!\be\.g)"
-            r"(?<!\bi\.e)"
-            r"(?<!\bapprox)"
-            r"(?<!\bNo)"
-            r"(?<!\bVol)"
-            r"(?<!\bvs)"
-            r"(?<!\breg)"
-            r"(?<!\bTER)"
-        )
-        # Split on sentence boundaries: period, question mark, exclamation followed by whitespace and uppercase/numeral
-        split_pattern = rf"{abbrev_pattern}(?<=[.!?])\s+(?=[A-Z0-9₹\"'\(\[])"
-        raw_splits = re.split(split_pattern, text.strip())
-        sentences = [s.strip() for s in raw_splits if s.strip()]
+        # List of abbreviations to protect (case-insensitive)
+        abbreviations = [
+            "Rs", "min", "max", "approx", "vs", "reg", "mo", "no", "vol", "ter",
+            "e.g", "i.e", "dr", "mr", "mrs", "ms", "prof", "sr", "jr", "co", "corp", "inc", "ltd"
+        ]
+        temp_text = text.strip()
+
+        # Protect abbreviations followed by period
+        for abbrev in abbreviations:
+            pattern = re.compile(rf"\b({re.escape(abbrev)})\.", re.IGNORECASE)
+            temp_text = pattern.sub(r"\1__DOT__", temp_text)
+
+        # Protect numbers with decimal points (e.g., 0.74%, 1.65%)
+        temp_text = re.sub(r"(\d+)\.(\d+)", r"\1__DECIMAL__\2", temp_text)
+
+        # Split on sentence boundaries: period, question mark, exclamation followed by whitespace and uppercase/numeral/quote
+        split_pattern = r"(?<=[.!?])\s+(?=[A-Z0-9₹\"'\(\[])"
+        raw_splits = re.split(split_pattern, temp_text)
+
+        sentences = []
+        for s in raw_splits:
+            restored = s.replace("__DOT__", ".").replace("__DECIMAL__", ".").strip()
+            if restored:
+                sentences.append(restored)
         return sentences
 
     @staticmethod

@@ -16,13 +16,16 @@ class IntentRouter:
     # Prohibited Advisory & Suitability Patterns
     ADVISORY_PATTERNS = [
         r"\b(?:should\s+i\s+(?:invest|buy|put\s+money|start|choose|pick))\b",
-        r"\b(?:is\s+(?:it|this)\s+(?:a\s+)?(?:good|best|safe|profitable|recommended)\s+(?:to\s+invest|fund|choice|investment))\b",
+        r"\b(?:is\s+.*?\s+(?:a\s+)?(?:good|best|safe|profitable|recommended)\s+(?:for|to|in|fund|choice|investment|option))\b",
         r"\b(?:which\s+(?:fund|scheme)\s+is\s+(?:the\s+)?(?:best|better|safest|top|recommended|good))\b",
-        r"\b(?:recommend\s+(?:me\s+)?(?:a\s+)?(?:fund|scheme|investment|stock))\b",
+        r"\b(?:recommend\s+(?:me\s+)?(?:a\s+)?(?:fund|scheme|investment|stock|mutual\s+fund))\b",
         r"\b(?:give\s+(?:me\s+)?(?:financial\s+)?advice|financial\s+planning\s+advice|suggest\s+(?:a\s+)?fund)\b",
-        r"\b(?:suitable\s+for\s+me|is\s+it\s+suitable|for\s+my\s+age|my\s+portfolio|risk\s+appetite)\b",
+        r"\b(?:suitable\s+for|is\s+.*?\s+suitable)\b",
+        r"\b(?:good\s+for\s+.*?(?:portfolio|retirement|beginners?|retirees?|seniors?))\b",
+        r"\b(?:for\s+my\s+age|my\s+portfolio|risk\s+appetite)\b",
         r"\b(?:i\s+am\s+\d+\s+years?\s+old|for\s+a\s+beginner|good\s+for\s+retirees?)\b",
         r"\b(?:will\s+i\s+(?:make|lose)\s+money|will\s+it\s+(?:double|grow|go\s+up|crash))\b",
+        r"\b(?:will\s+.*?\s+(?:go\s+up|go\s+down|increase|double|grow|crash|perform))\b",
         r"\b(?:future\s+price|price\s+prediction|target\s+price|predict\s+(?:the\s+)?price)\b",
     ]
 

@@ -21,11 +21,8 @@ class RefusalHandler:
     @staticmethod
     def count_sentences(text: str) -> int:
         """Count semantic sentences while preserving common abbreviations."""
-        # Protect known abbreviations
-        abbreviations = r"(?<!\bRs)(?<!\bmin)(?<!\bmax)(?<!\be\.g)(?<!\bi\.e)(?<!\bapprox)(?<!\bNo)(?<!\bVol)(?<!\bvs)"
-        pattern = rf"{abbreviations}(?<=[.!?])\s+(?=[A-Z0-9₹])"
-        sentences = [s.strip() for s in re.split(pattern, text) if s.strip()]
-        return len(sentences)
+        from backend.app.guardrails.output_validator import OutputValidator
+        return len(OutputValidator.split_into_sentences(text))
 
     def _resolve_source_url(self, scheme_code: Optional[str]) -> str:
         """Determine scheme-specific or general Groww URL."""

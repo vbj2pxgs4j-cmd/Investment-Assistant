@@ -2,7 +2,7 @@
  * API Service for interacting with FastAPI Backend endpoints.
  */
 
-const API_BASE = ''; // Uses relative URLs with Vite dev proxy or same-origin in prod
+const API_BASE = (import.meta.env.VITE_API_BASE_URL || '').replace(/\/$/, '');
 
 export async function sendChatQuery(query) {
   const response = await fetch(`${API_BASE}/api/v1/chat/query`, {

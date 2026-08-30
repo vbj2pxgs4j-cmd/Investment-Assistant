@@ -1,5 +1,5 @@
 # Multi-stage production Dockerfile for Railway / Docker PaaS
-FROM python:3.10-slim as builder
+FROM python:3.10-slim AS builder
 
 WORKDIR /build
 
@@ -9,10 +9,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt .
-RUN pip install --no-cache-dir --user torch --index-url https://download.pytorch.org/whl/cpu && \
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir --user --extra-index-url https://download.pytorch.org/whl/cpu torch && \
     pip install --no-cache-dir --user -r requirements.txt
 
-FROM python:3.10-slim as runner
+FROM python:3.10-slim AS runner
 
 WORKDIR /app
 

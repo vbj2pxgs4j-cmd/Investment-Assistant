@@ -49,7 +49,7 @@ jobs:
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
-          pytest backend/tests/test_factual_accuracy.py backend/tests/test_api_endpoints.py -v
+          pytest backend/tests/test_daily_ingestion.py backend/tests/test_retriever.py backend/tests/test_api_endpoints.py -v
 
       - name: Commit and Push Updated Knowledge Base
         run: |

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>HDFC Mutual Fund FAQ Assistant</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&amp;family=Outfit:wght@600;700&amp;family=Plus+Jakarta+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-surface-variant": "#bacac1",
+                        "on-tertiary": "#472a00",
+                        "error": "#ffb4ab",
+                        "tertiary-fixed": "#ffddb8",
+                        "secondary-container": "#0566d9",
+                        "surface-variant": "#2d3449",
+                        "surface-tint": "#2fe0aa",
+                        "surface-container-low": "#131b2e",
+                        "inverse-primary": "#006c4f",
+                        "on-tertiary-fixed": "#2a1700",
+                        "error-container": "#93000a",
+                        "on-primary-container": "#00533c",
+                        "surface-bright": "#31394d",
+                        "secondary": "#adc6ff",
+                        "primary-fixed-dim": "#2fe0aa",
+                        "on-secondary": "#002e6a",
+                        "primary-fixed": "#59fdc5",
+                        "inverse-on-surface": "#283044",
+                        "inverse-surface": "#dae2fd",
+                        "tertiary-container": "#fda417",
+                        "tertiary-fixed-dim": "#ffb95f",
+                        "on-secondary-fixed-variant": "#004395",
+                        "on-error": "#690005",
+                        "on-secondary-container": "#e6ecff",
+                        "on-surface": "#dae2fd",
+                        "on-primary": "#003828",
+                        "outline-variant": "#3c4a43",
+                        "secondary-fixed-dim": "#adc6ff",
+                        "background": "#0b1326",
+                        "on-primary-fixed": "#002116",
+                        "on-primary-fixed-variant": "#00513b",
+                        "primary-container": "#00d09c",
+                        "surface-container-lowest": "#060e20",
+                        "primary": "#44edb7",
+                        "on-background": "#dae2fd",
+                        "surface-container-high": "#222a3d",
+                        "tertiary": "#ffc98a",
+                        "on-tertiary-fixed-variant": "#653e00",
+                        "secondary-fixed": "#d8e2ff",
+                        "on-error-container": "#ffdad6",
+                        "outline": "#85948c",
+                        "on-secondary-fixed": "#001a42",
+                        "surface-dim": "#0b1326",
+                        "surface-container-highest": "#2d3449",
+                        "on-tertiary-container": "#673f00",
+                        "surface": "#0b1326",
+                        "surface-container": "#171f33"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "lg": "40px",
+                        "margin-desktop": "48px",
+                        "base": "4px",
+                        "margin-mobile": "16px",
+                        "xl": "64px",
+                        "md": "24px",
+                        "xs": "8px",
+                        "sm": "16px",
+                        "gutter": "20px"
+                    },
+                    "fontFamily": {
+                        "mono-data": ["JetBrains Mono"],
+                        "body-sm": ["Plus Jakarta Sans"],
+                        "label-caps": ["Plus Jakarta Sans"],
+                        "title-sm": ["Plus Jakarta Sans"],
+                        "display-lg-mobile": ["Outfit"],
+                        "display-lg": ["Outfit"],
+                        "body-md": ["Plus Jakarta Sans"],
+                        "headline-md": ["Outfit"]
+                    },
+                    "fontSize": {
+                        "mono-data": ["14px", { "lineHeight": "20px", "fontWeight": "500" }],
+                        "body-sm": ["14px", { "lineHeight": "20px", "fontWeight": "400" }],
+                        "label-caps": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "700" }],
+                        "title-sm": ["18px", { "lineHeight": "24px", "fontWeight": "600" }],
+                        "display-lg-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .glass-panel {
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid #334155;
+        }
+        .neon-glow {
+            box-shadow: 0px 0px 20px 0px rgba(0, 208, 156, 0.15);
+        }
+        .text-glow {
+            text-shadow: 0 0 10px rgba(0, 208, 156, 0.5);
+        }
+        
+        /* Pulse Animation for Status Dot */
+        @keyframes pulse-emerald {
+            0% { box-shadow: 0 0 0 0 rgba(0, 208, 156, 0.7); }
+            70% { box-shadow: 0 0 0 6px rgba(0, 208, 156, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(0, 208, 156, 0); }
+        }
+        .status-dot {
+            animation: pulse-emerald 2s infinite;
+        }
+        
+        /* Custom Scrollbar for dark theme */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0b1326; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #334155; 
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #475569; 
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-sm h-screen flex flex-col overflow-hidden selection:bg-primary-container selection:text-on-primary-container">
+<!-- Top Compliance Banner -->
+<div class="w-full bg-surface-container-highest border-b border-tertiary/20 py-xs px-sm flex items-center justify-center gap-2 z-50 relative shrink-0">
+<span class="material-symbols-outlined text-tertiary text-[18px]">warning</span>
+<p class="font-body-sm text-tertiary text-center text-xs sm:text-sm">
+            Regulatory Notice: Facts-only information sourced exclusively from verified Groww scheme factsheets. No investment advice, predictions, or return calculations provided.
+        </p>
+</div>
+<!-- Glassmorphic Navbar -->
+<nav class="w-full glass-panel z-40 relative flex items-center justify-between px-md py-sm shrink-0 border-x-0 border-t-0 shadow-sm">
+<div class="flex items-center gap-md">
+<div>
+<h1 class="font-headline-md text-headline-md text-primary tracking-tight">Mutual Fund FAQ Assistant</h1>
+<p class="font-body-sm text-on-surface-variant">HDFC Schemes Knowledge Base</p>
+</div>
+<div class="hidden lg:flex items-center gap-2 ml-lg">
+<button class="px-3 py-1 rounded-full border border-primary/30 bg-primary/10 text-primary font-label-caps text-label-caps transition-colors hover:bg-primary/20">HDFC Mid-Cap</button>
+<button class="px-3 py-1 rounded-full border border-outline-variant bg-surface-container-low text-on-surface-variant font-label-caps text-label-caps transition-colors hover:bg-surface-variant hover:text-on-surface">HDFC Small Cap</button>
+<button class="px-3 py-1 rounded-full border border-outline-variant bg-surface-container-low text-on-surface-variant font-label-caps text-label-caps transition-colors hover:bg-surface-variant hover:text-on-surface">HDFC Top 100</button>
+<button class="px-3 py-1 rounded-full border border-outline-variant bg-surface-container-low text-on-surface-variant font-label-caps text-label-caps transition-colors hover:bg-surface-variant hover:text-on-surface">HDFC ELSS Tax Saver</button>
+<button class="px-3 py-1 rounded-full border border-outline-variant bg-surface-container-low text-on-surface-variant font-label-caps text-label-caps transition-colors hover:bg-surface-variant hover:text-on-surface">HDFC Gold ETF FoF</button>
+</div>
+</div>
+<div class="flex items-center gap-2 bg-surface-container-highest px-3 py-1.5 rounded-lg border border-outline-variant">
+<div class="w-2 h-2 rounded-full bg-primary status-dot"></div>
+<span class="font-mono-data text-mono-data text-on-surface-variant text-xs">Facts-Only Engine • Sub-600ms Latency</span>
+</div>
+</nav>
+<!-- Main Layout Grid -->
+<div class="flex-1 flex overflow-hidden">
+<!-- Central Chat Area -->
+<main class="flex-1 flex flex-col relative h-full bg-surface-dim/50 border-r border-outline-variant z-10">
+<!-- Chat Scrollable Container -->
+<div class="flex-1 overflow-y-auto p-md pb-32 flex flex-col gap-lg">
+<!-- Initial State / Suggestions -->
+<div class="flex flex-col items-center justify-center pt-xl pb-md gap-md opacity-80">
+<span class="material-symbols-outlined text-4xl text-primary/50">chat_bubble</span>
+<div class="flex flex-wrap justify-center gap-3 max-w-2xl">
+<button class="glass-panel px-4 py-2 rounded-xl text-on-surface font-body-sm hover:bg-surface-variant hover:text-primary transition-all border border-outline-variant text-left flex items-center gap-2 group">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary text-[18px]">bar_chart</span>
+                            What is the exit load for HDFC Small Cap Fund?
+                        </button>
+<button class="glass-panel px-4 py-2 rounded-xl text-on-surface font-body-sm hover:bg-surface-variant hover:text-primary transition-all border border-outline-variant text-left flex items-center gap-2 group">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary text-[18px]">lock</span>
+                            What is the lock-in period for HDFC ELSS Tax Saver Fund?
+                        </button>
+<button class="glass-panel px-4 py-2 rounded-xl text-on-surface font-body-sm hover:bg-surface-variant hover:text-primary transition-all border border-outline-variant text-left flex items-center gap-2 group">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary text-[18px]">payments</span>
+                            Minimum SIP amount for HDFC Top 100?
+                        </button>
+</div>
+</div>
+<!-- Chat History Example -->
+<div class="flex flex-col gap-md max-w-4xl mx-auto w-full">
+<!-- User Message -->
+<div class="flex justify-end w-full">
+<div class="bg-surface-bright rounded-2xl rounded-tr-none px-md py-sm border border-outline-variant max-w-[80%] shadow-sm">
+<p class="font-body-md text-on-surface">What is the expense ratio for HDFC Small Cap Fund?</p>
+</div>
+</div>
+<!-- Assistant Response -->
+<div class="flex justify-start w-full">
+<div class="flex gap-4 max-w-[90%]">
+<div class="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center shrink-0 border border-primary/50">
+<span class="material-symbols-outlined text-primary text-[18px]">robot_2</span>
+</div>
+<div class="flex flex-col gap-2">
+<div class="flex items-center gap-3">
+<span class="px-2 py-0.5 rounded-full bg-secondary-container/20 border border-secondary-container/50 text-secondary font-label-caps text-[10px] flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">verified</span>
+                                        Verified Factual Response
+                                    </span>
+<span class="font-mono-data text-[12px] text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">bolt</span>
+                                        560ms
+                                    </span>
+</div>
+<div class="glass-panel rounded-2xl rounded-tl-none px-md py-sm neon-glow">
+<p class="font-body-md text-on-surface leading-relaxed">
+                                        The expense ratio (TER) for <span class="text-on-surface font-semibold">HDFC Small Cap Fund (Direct Plan)</span> is <span class="text-primary font-bold text-glow">0.77%</span> as of latest factsheets.
+                                    </p>
+</div>
+<!-- Citation Box -->
+<a class="mt-2 glass-panel p-3 rounded-lg flex items-center justify-between hover:bg-surface-variant transition-colors group cursor-pointer max-w-sm" href="#">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 bg-[#00d09c]/10 rounded flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-[16px]">description</span>
+</div>
+<div>
+<p class="font-title-sm text-sm text-on-surface">Source: Groww Factsheet</p>
+<p class="font-body-sm text-xs text-on-surface-variant">HDFC Small Cap Fund Direct Growth</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary transition-colors text-[18px]">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Bottom Floating Input Area -->
+<div class="absolute bottom-0 left-0 w-full p-md bg-gradient-to-t from-background via-background/95 to-transparent z-20">
+<div class="max-w-4xl mx-auto flex flex-col gap-2">
+<div class="relative flex items-center group">
+<input class="w-full bg-surface-container-low border border-outline-variant rounded-full py-4 pl-6 pr-14 text-on-surface font-body-md placeholder:text-on-surface-variant focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary shadow-lg transition-all group-hover:border-outline" placeholder="Ask about exit loads, expense ratio (TER), SIP limits..." type="text"/>
+<button class="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center hover:bg-primary transition-colors hover:shadow-[0_0_15px_rgba(0,208,156,0.4)]">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">send</span>
+</button>
+</div>
+<div class="flex items-center justify-center gap-1.5 text-on-surface-variant/80 font-body-sm text-xs">
+<span class="material-symbols-outlined text-[14px]">lock</span>
+<span>Zero PII Storage • Do not enter PAN, Aadhaar, or bank details.</span>
+</div>
+</div>
+</div>
+</main>
+<!-- Right Sidebar: Scheme Explorer -->
+<aside class="w-80 bg-surface hidden xl:flex flex-col border-l border-outline-variant shrink-0 z-20">
+<div class="p-4 border-b border-outline-variant bg-surface-container-highest flex items-center justify-between">
+<h2 class="font-title-sm text-title-sm text-on-surface">Scheme Explorer</h2>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">explore</span>
+</div>
+<div class="flex-1 overflow-y-auto p-4 flex flex-col gap-3">
+<!-- Scheme Card 1 -->
+<div class="glass-panel p-4 rounded-xl flex flex-col gap-3 hover:border-primary/50 transition-colors cursor-pointer group">
+<div class="flex justify-between items-start">
+<h3 class="font-title-sm text-on-surface text-sm group-hover:text-primary transition-colors">HDFC Mid-Cap Opportunities</h3>
+<span class="px-2 py-0.5 rounded-md bg-error/10 text-error font-label-caps text-[10px] border border-error/20 whitespace-nowrap">Very High Risk</span>
+</div>
+<div class="grid grid-cols-2 gap-2 text-xs">
+<div class="flex flex-col">
+<span class="font-label-caps text-on-surface-variant">CATEGORY</span>
+<span class="font-body-sm text-on-surface truncate">Equity - Mid Cap</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-caps text-on-surface-variant">TER</span>
+<span class="font-mono-data text-primary">0.82%</span>
+</div>
+</div>
+<div class="pt-2 border-t border-outline-variant/50">
+<span class="font-label-caps text-on-surface-variant text-[10px]">BENCHMARK</span>
+<p class="font-body-sm text-on-surface text-xs truncate">NIFTY Midcap 150 TRI</p>
+</div>
+</div>
+<!-- Scheme Card 2 -->
+<div class="glass-panel p-4 rounded-xl flex flex-col gap-3 border-t-primary border-t-[2px] bg-surface-container-highest cursor-pointer">
+<div class="flex justify-between items-start">
+<h3 class="font-title-sm text-primary text-sm">HDFC Small Cap Fund</h3>
+<span class="px-2 py-0.5 rounded-md bg-error/10 text-error font-label-caps text-[10px] border border-error/20 whitespace-nowrap">Very High Risk</span>
+</div>
+<div class="grid grid-cols-2 gap-2 text-xs">
+<div class="flex flex-col">
+<span class="font-label-caps text-on-surface-variant">CATEGORY</span>
+<span class="font-body-sm text-on-surface truncate">Equity - Small Cap</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-caps text-on-surface-variant">TER</span>
+<span class="font-mono-data text-primary font-bold">0.77%</span>
+</div>
+</div>
+<div class="pt-2 border-t border-outline-variant/50">
+<span class="font-label-caps text-on-surface-variant text-[10px]">BENCHMARK</span>
+<p class="font-body-sm text-on-surface text-xs truncate">BSE 250 SmallCap TRI</p>
+</div>
+</div>
+<!-- Scheme Card 3 -->
+<div class="glass-panel p-4 rounded-xl flex flex-col gap-3 hover:border-primary/50 transition-colors cursor-pointer group">
+<div class="flex justify-between items-start">
+<h3 class="font-title-sm text-on-surface text-sm group-hover:text-primary transition-colors">HDFC Top 100 Fund</h3>
+<span class="px-2 py-0.5 rounded-md bg-tertiary-container/20 text-tertiary font-label-caps text-[10px] border border-tertiary-container/30 whitespace-nowrap">High Risk</span>
+</div>
+<div class="grid grid-cols-2 gap-2 text-xs">
+<div class="flex flex-col">
+<span class="font-label-caps text-on-surface-variant">CATEGORY</span>
+<span class="font-body-sm text-on-surface truncate">Equity - Large Cap</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-caps text-on-surface-variant">TER</span>
+<span class="font-mono-data text-primary">1.14%</span>
+</div>
+</div>
+<div class="pt-2 border-t border-outline-variant/50">
+<span class="font-label-caps text-on-surface-variant text-[10px]">BENCHMARK</span>
+<p class="font-body-sm text-on-surface text-xs truncate">NIFTY 100 TRI</p>
+</div>
+</div>
+<!-- Scheme Card 4 -->
+<div class="glass-panel p-4 rounded-xl flex flex-col gap-3 hover:border-primary/50 transition-colors cursor-pointer group">
+<div class="flex justify-between items-start">
+<h3 class="font-title-sm text-on-surface text-sm group-hover:text-primary transition-colors">HDFC ELSS Tax Saver</h3>
+<span class="px-2 py-0.5 rounded-md bg-error/10 text-error font-label-caps text-[10px] border border-error/20 whitespace-nowrap">Very High Risk</span>
+</div>
+<div class="grid grid-cols-2 gap-2 text-xs">
+<div class="flex flex-col">
+<span class="font-label-caps text-on-surface-variant">CATEGORY</span>
+<span class="font-body-sm text-on-surface truncate">Equity - ELSS</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-caps text-on-surface-variant">TER</span>
+<span class="font-mono-data text-primary">1.09%</span>
+</div>
+</div>
+<div class="pt-2 border-t border-outline-variant/50">
+<span class="font-label-caps text-on-surface-variant text-[10px]">BENCHMARK</span>
+<p class="font-body-sm text-on-surface text-xs truncate">NIFTY 500 TRI</p>
+</div>
+</div>
+<!-- Scheme Card 5 -->
+<div class="glass-panel p-4 rounded-xl flex flex-col gap-3 hover:border-primary/50 transition-colors cursor-pointer group">
+<div class="flex justify-between items-start">
+<h3 class="font-title-sm text-on-surface text-sm group-hover:text-primary transition-colors">HDFC Gold ETF FoF</h3>
+<span class="px-2 py-0.5 rounded-md bg-tertiary-container/20 text-tertiary font-label-caps text-[10px] border border-tertiary-container/30 whitespace-nowrap">High Risk</span>
+</div>
+<div class="grid grid-cols-2 gap-2 text-xs">
+<div class="flex flex-col">
+<span class="font-label-caps text-on-surface-variant">CATEGORY</span>
+<span class="font-body-sm text-on-surface truncate">Other - FoF Dom</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-caps text-on-surface-variant">TER</span>
+<span class="font-mono-data text-primary">0.15%</span>
+</div>
+</div>
+<div class="pt-2 border-t border-outline-variant/50">
+<span class="font-label-caps text-on-surface-variant text-[10px]">BENCHMARK</span>
+<p class="font-body-sm text-on-surface text-xs truncate">Domestic Price of Gold</p>
+</div>
+</div>
+</div>
+</aside>
+</div>
+</body></html>

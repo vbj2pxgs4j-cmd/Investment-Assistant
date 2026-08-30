@@ -1,0 +1,909 @@
+{
+  "total_chunks": 38,
+  "last_updated": "2024-04-01",
+  "chunks": [
+    {
+      "chunk_id": "hdfc_mid_cap_fund_direct_growth_fund_overview",
+      "scheme_code": "hdfc-mid-cap-fund-direct-growth",
+      "scheme_name": "HDFC Mid-Cap Opportunities Fund",
+      "category": "Equity: Mid Cap",
+      "parameter": "fund_overview",
+      "title": "HDFC Mid-Cap Opportunities Fund - Fund Overview & Classification",
+      "content": "HDFC Mid-Cap Opportunities Fund (Direct Plan - Growth Option) is managed by HDFC Asset Management Company Limited under the Equity: Mid Cap category. It is an Open-ended equity scheme predominantly investing in mid cap stocks. The fund tracks the NIFTY Midcap 150 TRI benchmark and is classified as 'Very High' risk on the SEBI Riskometer.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc mid-cap opportunities fund",
+        "fund overview",
+        "category",
+        "benchmark",
+        "riskometer",
+        "nifty midcap 150 tri",
+        "very high"
+      ],
+      "metadata": {
+        "benchmark": "NIFTY Midcap 150 TRI",
+        "riskometer": "Very High",
+        "amc": "HDFC Asset Management Company Limited",
+        "fund_type": "Open-ended equity scheme predominantly investing in mid cap stocks"
+      }
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_fund_direct_growth_expense_ratio",
+      "scheme_code": "hdfc-mid-cap-fund-direct-growth",
+      "scheme_name": "HDFC Mid-Cap Opportunities Fund",
+      "category": "Equity: Mid Cap",
+      "parameter": "expense_ratio",
+      "title": "HDFC Mid-Cap Opportunities Fund - Expense Ratio (TER)",
+      "content": "The Total Expense Ratio (TER) for HDFC Mid-Cap Opportunities Fund Direct Plan - Growth is 0.74% (inclusive of GST).",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc mid-cap opportunities fund",
+        "expense ratio",
+        "ter",
+        "direct plan ter",
+        "management fee",
+        "charges"
+      ],
+      "metadata": {
+        "direct_plan_percentage": 0.74,
+        "regular_plan_percentage": 1.48
+      }
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_fund_direct_growth_exit_load",
+      "scheme_code": "hdfc-mid-cap-fund-direct-growth",
+      "scheme_name": "HDFC Mid-Cap Opportunities Fund",
+      "category": "Equity: Mid Cap",
+      "parameter": "exit_load",
+      "title": "HDFC Mid-Cap Opportunities Fund - Exit Load & Holding Duration",
+      "content": "An exit load of 1.00% is applicable for units redeemed or switched out within 1 year (365 days) from the date of allotment. No exit load is payable for units redeemed after 1 year.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc mid-cap opportunities fund",
+        "exit load",
+        "redemption fee",
+        "holding period",
+        "early withdrawal charge",
+        "lock-in"
+      ],
+      "metadata": {
+        "percentage": 1.0,
+        "holding_period_threshold_days": 365
+      }
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_fund_direct_growth_investment_limits",
+      "scheme_code": "hdfc-mid-cap-fund-direct-growth",
+      "scheme_name": "HDFC Mid-Cap Opportunities Fund",
+      "category": "Equity: Mid Cap",
+      "parameter": "investment_limits",
+      "title": "HDFC Mid-Cap Opportunities Fund - Minimum SIP & Lump Sum Limits",
+      "content": "The minimum SIP investment amount is ₹100 per installment. The minimum lump sum investment amount for initial as well as additional purchases is ₹100.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc mid-cap opportunities fund",
+        "minimum sip",
+        "min sip",
+        "lump sum",
+        "minimum investment",
+        "initial purchase",
+        "additional purchase"
+      ],
+      "metadata": {
+        "min_sip_amount": 100,
+        "min_lump_sum_amount": 100,
+        "min_additional_investment": 100,
+        "sip_frequency": "Monthly / Quarterly"
+      }
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_fund_direct_growth_lock_in_period",
+      "scheme_code": "hdfc-mid-cap-fund-direct-growth",
+      "scheme_name": "HDFC Mid-Cap Opportunities Fund",
+      "category": "Equity: Mid Cap",
+      "parameter": "lock_in_period",
+      "title": "HDFC Mid-Cap Opportunities Fund - Statutory Lock-in Period",
+      "content": "Nil. This is an open-ended equity fund with no statutory lock-in period.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc mid-cap opportunities fund",
+        "lock-in period",
+        "lock in",
+        "holding period",
+        "elss lock in",
+        "3 years lock-in",
+        "maturity"
+      ],
+      "metadata": {
+        "has_lock_in": false,
+        "duration_years": 0
+      }
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_fund_direct_growth_taxation",
+      "scheme_code": "hdfc-mid-cap-fund-direct-growth",
+      "scheme_name": "HDFC Mid-Cap Opportunities Fund",
+      "category": "Equity: Mid Cap",
+      "parameter": "taxation",
+      "title": "HDFC Mid-Cap Opportunities Fund - Mutual Fund Taxation & Capital Gains",
+      "content": "STCG is taxed at 20% if redeemed within 12 months. LTCG above ₹1.25 Lakh in a financial year is taxed at 12.5% without indexation if held for more than 12 months.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc mid-cap opportunities fund",
+        "taxation",
+        "stcg",
+        "ltcg",
+        "capital gains",
+        "80c",
+        "tax benefit",
+        "tax deduction"
+      ],
+      "metadata": {
+        "equity_taxation": true
+      }
+    },
+    {
+      "chunk_id": "hdfc_mid_cap_fund_direct_growth_operations",
+      "scheme_code": "hdfc-mid-cap-fund-direct-growth",
+      "scheme_name": "HDFC Mid-Cap Opportunities Fund",
+      "category": "Equity: Mid Cap",
+      "parameter": "operations",
+      "title": "HDFC Mid-Cap Opportunities Fund - Account Statements & Folio Verification",
+      "content": "Account statements and capital gains reports can be downloaded online from the Groww App under Profile > Reports or directly via the HDFC MF online investor portal using your PAN and Folio number. Check registered folio numbers in your Groww mutual funds dashboard or consolidated account statement (CAS).",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc mid-cap opportunities fund",
+        "download statement",
+        "account statement",
+        "capital gains report",
+        "folio number",
+        "cams",
+        "kfintech"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "hdfc_small_cap_fund_direct_growth_fund_overview",
+      "scheme_code": "hdfc-small-cap-fund-direct-growth",
+      "scheme_name": "HDFC Small Cap Fund",
+      "category": "Equity: Small Cap",
+      "parameter": "fund_overview",
+      "title": "HDFC Small Cap Fund - Fund Overview & Classification",
+      "content": "HDFC Small Cap Fund (Direct Plan - Growth Option) is managed by HDFC Asset Management Company Limited under the Equity: Small Cap category. It is an Open-ended equity scheme predominantly investing in small cap stocks. The fund tracks the BSE 250 SmallCap TRI benchmark and is classified as 'Very High' risk on the SEBI Riskometer.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc small cap fund",
+        "fund overview",
+        "category",
+        "benchmark",
+        "riskometer",
+        "bse 250 smallcap tri",
+        "very high"
+      ],
+      "metadata": {
+        "benchmark": "BSE 250 SmallCap TRI",
+        "riskometer": "Very High",
+        "amc": "HDFC Asset Management Company Limited",
+        "fund_type": "Open-ended equity scheme predominantly investing in small cap stocks"
+      }
+    },
+    {
+      "chunk_id": "hdfc_small_cap_fund_direct_growth_expense_ratio",
+      "scheme_code": "hdfc-small-cap-fund-direct-growth",
+      "scheme_name": "HDFC Small Cap Fund",
+      "category": "Equity: Small Cap",
+      "parameter": "expense_ratio",
+      "title": "HDFC Small Cap Fund - Expense Ratio (TER)",
+      "content": "The Total Expense Ratio (TER) for HDFC Small Cap Fund Direct Plan - Growth is 0.68% (inclusive of GST).",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc small cap fund",
+        "expense ratio",
+        "ter",
+        "direct plan ter",
+        "management fee",
+        "charges"
+      ],
+      "metadata": {
+        "direct_plan_percentage": 0.68,
+        "regular_plan_percentage": 1.54
+      }
+    },
+    {
+      "chunk_id": "hdfc_small_cap_fund_direct_growth_exit_load",
+      "scheme_code": "hdfc-small-cap-fund-direct-growth",
+      "scheme_name": "HDFC Small Cap Fund",
+      "category": "Equity: Small Cap",
+      "parameter": "exit_load",
+      "title": "HDFC Small Cap Fund - Exit Load & Holding Duration",
+      "content": "An exit load of 1.00% is charged if units are redeemed or switched out within 1 year (365 days) from allotment. Nil exit load after 1 year.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc small cap fund",
+        "exit load",
+        "redemption fee",
+        "holding period",
+        "early withdrawal charge",
+        "lock-in"
+      ],
+      "metadata": {
+        "percentage": 1.0,
+        "holding_period_threshold_days": 365
+      }
+    },
+    {
+      "chunk_id": "hdfc_small_cap_fund_direct_growth_investment_limits",
+      "scheme_code": "hdfc-small-cap-fund-direct-growth",
+      "scheme_name": "HDFC Small Cap Fund",
+      "category": "Equity: Small Cap",
+      "parameter": "investment_limits",
+      "title": "HDFC Small Cap Fund - Minimum SIP & Lump Sum Limits",
+      "content": "The minimum SIP investment is ₹100 per installment. The minimum lump sum purchase amount is ₹100 for both initial and additional purchases.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc small cap fund",
+        "minimum sip",
+        "min sip",
+        "lump sum",
+        "minimum investment",
+        "initial purchase",
+        "additional purchase"
+      ],
+      "metadata": {
+        "min_sip_amount": 100,
+        "min_lump_sum_amount": 100,
+        "min_additional_investment": 100,
+        "sip_frequency": "Monthly / Quarterly"
+      }
+    },
+    {
+      "chunk_id": "hdfc_small_cap_fund_direct_growth_lock_in_period",
+      "scheme_code": "hdfc-small-cap-fund-direct-growth",
+      "scheme_name": "HDFC Small Cap Fund",
+      "category": "Equity: Small Cap",
+      "parameter": "lock_in_period",
+      "title": "HDFC Small Cap Fund - Statutory Lock-in Period",
+      "content": "Nil. This is an open-ended equity fund with no statutory lock-in period.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc small cap fund",
+        "lock-in period",
+        "lock in",
+        "holding period",
+        "elss lock in",
+        "3 years lock-in",
+        "maturity"
+      ],
+      "metadata": {
+        "has_lock_in": false,
+        "duration_years": 0
+      }
+    },
+    {
+      "chunk_id": "hdfc_small_cap_fund_direct_growth_taxation",
+      "scheme_code": "hdfc-small-cap-fund-direct-growth",
+      "scheme_name": "HDFC Small Cap Fund",
+      "category": "Equity: Small Cap",
+      "parameter": "taxation",
+      "title": "HDFC Small Cap Fund - Mutual Fund Taxation & Capital Gains",
+      "content": "STCG is taxed at 20% if redeemed within 12 months. LTCG above ₹1.25 Lakh per financial year is taxed at 12.5% without indexation if held for more than 12 months.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc small cap fund",
+        "taxation",
+        "stcg",
+        "ltcg",
+        "capital gains",
+        "80c",
+        "tax benefit",
+        "tax deduction"
+      ],
+      "metadata": {
+        "equity_taxation": true
+      }
+    },
+    {
+      "chunk_id": "hdfc_small_cap_fund_direct_growth_operations",
+      "scheme_code": "hdfc-small-cap-fund-direct-growth",
+      "scheme_name": "HDFC Small Cap Fund",
+      "category": "Equity: Small Cap",
+      "parameter": "operations",
+      "title": "HDFC Small Cap Fund - Account Statements & Folio Verification",
+      "content": "Investors can generate consolidated or scheme-specific account statements from the Groww App (Profile > Reports > Mutual Fund Statements) or via the HDFC MF portal. Registered folio details can be verified in the Groww dashboard or via CAMS/KFintech CAS statements.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc small cap fund",
+        "download statement",
+        "account statement",
+        "capital gains report",
+        "folio number",
+        "cams",
+        "kfintech"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "hdfc_gold_etf_fund_of_fund_direct_plan_growth_fund_overview",
+      "scheme_code": "hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+      "scheme_name": "HDFC Gold ETF Fund of Fund",
+      "category": "Commodities: Gold / Fund of Funds",
+      "parameter": "fund_overview",
+      "title": "HDFC Gold ETF Fund of Fund - Fund Overview & Classification",
+      "content": "HDFC Gold ETF Fund of Fund (Direct Plan - Growth Option) is managed by HDFC Asset Management Company Limited under the Commodities: Gold / Fund of Funds category. It is an Open-ended Fund of Fund scheme investing in units of HDFC Gold Exchange Traded Fund (ETF). The fund tracks the Domestic Price of Physical Gold benchmark and is classified as 'High' risk on the SEBI Riskometer.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc gold etf fund of fund",
+        "fund overview",
+        "category",
+        "benchmark",
+        "riskometer",
+        "domestic price of physical gold",
+        "high"
+      ],
+      "metadata": {
+        "benchmark": "Domestic Price of Physical Gold",
+        "riskometer": "High",
+        "amc": "HDFC Asset Management Company Limited",
+        "fund_type": "Open-ended Fund of Fund scheme investing in units of HDFC Gold Exchange Traded Fund (ETF)"
+      }
+    },
+    {
+      "chunk_id": "hdfc_gold_etf_fund_of_fund_direct_plan_growth_expense_ratio",
+      "scheme_code": "hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+      "scheme_name": "HDFC Gold ETF Fund of Fund",
+      "category": "Commodities: Gold / Fund of Funds",
+      "parameter": "expense_ratio",
+      "title": "HDFC Gold ETF Fund of Fund - Expense Ratio (TER)",
+      "content": "The Total Expense Ratio (TER) for HDFC Gold ETF Fund of Fund Direct Plan - Growth is 0.25% (investors also bear the underlying ETF scheme expenses).",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc gold etf fund of fund",
+        "expense ratio",
+        "ter",
+        "direct plan ter",
+        "management fee",
+        "charges"
+      ],
+      "metadata": {
+        "direct_plan_percentage": 0.25,
+        "regular_plan_percentage": 0.55
+      }
+    },
+    {
+      "chunk_id": "hdfc_gold_etf_fund_of_fund_direct_plan_growth_exit_load",
+      "scheme_code": "hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+      "scheme_name": "HDFC Gold ETF Fund of Fund",
+      "category": "Commodities: Gold / Fund of Funds",
+      "parameter": "exit_load",
+      "title": "HDFC Gold ETF Fund of Fund - Exit Load & Holding Duration",
+      "content": "An exit load of 1.00% is applicable if units are redeemed or switched out on or before 15 days from the date of allotment. No exit load is payable if redeemed after 15 days.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc gold etf fund of fund",
+        "exit load",
+        "redemption fee",
+        "holding period",
+        "early withdrawal charge",
+        "lock-in"
+      ],
+      "metadata": {
+        "percentage": 1.0,
+        "holding_period_threshold_days": 15
+      }
+    },
+    {
+      "chunk_id": "hdfc_gold_etf_fund_of_fund_direct_plan_growth_investment_limits",
+      "scheme_code": "hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+      "scheme_name": "HDFC Gold ETF Fund of Fund",
+      "category": "Commodities: Gold / Fund of Funds",
+      "parameter": "investment_limits",
+      "title": "HDFC Gold ETF Fund of Fund - Minimum SIP & Lump Sum Limits",
+      "content": "The minimum SIP investment is ₹100 per installment. The minimum lump sum investment amount is ₹100 for initial as well as additional purchases.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc gold etf fund of fund",
+        "minimum sip",
+        "min sip",
+        "lump sum",
+        "minimum investment",
+        "initial purchase",
+        "additional purchase"
+      ],
+      "metadata": {
+        "min_sip_amount": 100,
+        "min_lump_sum_amount": 100,
+        "min_additional_investment": 100,
+        "sip_frequency": "Monthly / Quarterly"
+      }
+    },
+    {
+      "chunk_id": "hdfc_gold_etf_fund_of_fund_direct_plan_growth_lock_in_period",
+      "scheme_code": "hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+      "scheme_name": "HDFC Gold ETF Fund of Fund",
+      "category": "Commodities: Gold / Fund of Funds",
+      "parameter": "lock_in_period",
+      "title": "HDFC Gold ETF Fund of Fund - Statutory Lock-in Period",
+      "content": "Nil. There is no statutory lock-in period for this fund of funds scheme.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc gold etf fund of fund",
+        "lock-in period",
+        "lock in",
+        "holding period",
+        "elss lock in",
+        "3 years lock-in",
+        "maturity"
+      ],
+      "metadata": {
+        "has_lock_in": false,
+        "duration_years": 0
+      }
+    },
+    {
+      "chunk_id": "hdfc_gold_etf_fund_of_fund_direct_plan_growth_taxation",
+      "scheme_code": "hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+      "scheme_name": "HDFC Gold ETF Fund of Fund",
+      "category": "Commodities: Gold / Fund of Funds",
+      "parameter": "taxation",
+      "title": "HDFC Gold ETF Fund of Fund - Mutual Fund Taxation & Capital Gains",
+      "content": "Specified Mutual Fund / Debt & Commodities Taxation rules as per applicable Finance Act provisions based on holding duration and investor tax slab.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc gold etf fund of fund",
+        "taxation",
+        "stcg",
+        "ltcg",
+        "capital gains",
+        "80c",
+        "tax benefit",
+        "tax deduction"
+      ],
+      "metadata": {
+        "equity_taxation": false
+      }
+    },
+    {
+      "chunk_id": "hdfc_gold_etf_fund_of_fund_direct_plan_growth_operations",
+      "scheme_code": "hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+      "scheme_name": "HDFC Gold ETF Fund of Fund",
+      "category": "Commodities: Gold / Fund of Funds",
+      "parameter": "operations",
+      "title": "HDFC Gold ETF Fund of Fund - Account Statements & Folio Verification",
+      "content": "Download statements via Groww Profile > Reports > Mutual Funds or through HDFC AMC / CAMS online facilities. Accessible in your Groww portfolio and consolidated account statements (CAS).",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc gold etf fund of fund",
+        "download statement",
+        "account statement",
+        "capital gains report",
+        "folio number",
+        "cams",
+        "kfintech"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "hdfc_large_cap_fund_direct_growth_fund_overview",
+      "scheme_code": "hdfc-large-cap-fund-direct-growth",
+      "scheme_name": "HDFC Top 100 / Large Cap Fund",
+      "category": "Equity: Large Cap",
+      "parameter": "fund_overview",
+      "title": "HDFC Top 100 / Large Cap Fund - Fund Overview & Classification",
+      "content": "HDFC Top 100 / Large Cap Fund (Direct Plan - Growth Option) is managed by HDFC Asset Management Company Limited under the Equity: Large Cap category. It is an Open-ended equity scheme predominantly investing in large cap stocks. The fund tracks the NIFTY 100 TRI benchmark and is classified as 'Very High' risk on the SEBI Riskometer.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc top 100 / large cap fund",
+        "fund overview",
+        "category",
+        "benchmark",
+        "riskometer",
+        "nifty 100 tri",
+        "very high"
+      ],
+      "metadata": {
+        "benchmark": "NIFTY 100 TRI",
+        "riskometer": "Very High",
+        "amc": "HDFC Asset Management Company Limited",
+        "fund_type": "Open-ended equity scheme predominantly investing in large cap stocks"
+      }
+    },
+    {
+      "chunk_id": "hdfc_large_cap_fund_direct_growth_expense_ratio",
+      "scheme_code": "hdfc-large-cap-fund-direct-growth",
+      "scheme_name": "HDFC Top 100 / Large Cap Fund",
+      "category": "Equity: Large Cap",
+      "parameter": "expense_ratio",
+      "title": "HDFC Top 100 / Large Cap Fund - Expense Ratio (TER)",
+      "content": "The Total Expense Ratio (TER) for HDFC Top 100 Fund Direct Plan - Growth is 1.08%.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc top 100 / large cap fund",
+        "expense ratio",
+        "ter",
+        "direct plan ter",
+        "management fee",
+        "charges"
+      ],
+      "metadata": {
+        "direct_plan_percentage": 1.08,
+        "regular_plan_percentage": 1.63
+      }
+    },
+    {
+      "chunk_id": "hdfc_large_cap_fund_direct_growth_exit_load",
+      "scheme_code": "hdfc-large-cap-fund-direct-growth",
+      "scheme_name": "HDFC Top 100 / Large Cap Fund",
+      "category": "Equity: Large Cap",
+      "parameter": "exit_load",
+      "title": "HDFC Top 100 / Large Cap Fund - Exit Load & Holding Duration",
+      "content": "An exit load of 1.00% is levied if units are redeemed or switched out within 1 year (365 days) from allotment. Nil exit load after 1 year.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc top 100 / large cap fund",
+        "exit load",
+        "redemption fee",
+        "holding period",
+        "early withdrawal charge",
+        "lock-in"
+      ],
+      "metadata": {
+        "percentage": 1.0,
+        "holding_period_threshold_days": 365
+      }
+    },
+    {
+      "chunk_id": "hdfc_large_cap_fund_direct_growth_investment_limits",
+      "scheme_code": "hdfc-large-cap-fund-direct-growth",
+      "scheme_name": "HDFC Top 100 / Large Cap Fund",
+      "category": "Equity: Large Cap",
+      "parameter": "investment_limits",
+      "title": "HDFC Top 100 / Large Cap Fund - Minimum SIP & Lump Sum Limits",
+      "content": "The minimum SIP investment is ₹100 per installment. The minimum initial and additional lump sum investment is ₹100.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc top 100 / large cap fund",
+        "minimum sip",
+        "min sip",
+        "lump sum",
+        "minimum investment",
+        "initial purchase",
+        "additional purchase"
+      ],
+      "metadata": {
+        "min_sip_amount": 100,
+        "min_lump_sum_amount": 100,
+        "min_additional_investment": 100,
+        "sip_frequency": "Monthly / Quarterly"
+      }
+    },
+    {
+      "chunk_id": "hdfc_large_cap_fund_direct_growth_lock_in_period",
+      "scheme_code": "hdfc-large-cap-fund-direct-growth",
+      "scheme_name": "HDFC Top 100 / Large Cap Fund",
+      "category": "Equity: Large Cap",
+      "parameter": "lock_in_period",
+      "title": "HDFC Top 100 / Large Cap Fund - Statutory Lock-in Period",
+      "content": "Nil. This open-ended equity fund carries no statutory lock-in period.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc top 100 / large cap fund",
+        "lock-in period",
+        "lock in",
+        "holding period",
+        "elss lock in",
+        "3 years lock-in",
+        "maturity"
+      ],
+      "metadata": {
+        "has_lock_in": false,
+        "duration_years": 0
+      }
+    },
+    {
+      "chunk_id": "hdfc_large_cap_fund_direct_growth_taxation",
+      "scheme_code": "hdfc-large-cap-fund-direct-growth",
+      "scheme_name": "HDFC Top 100 / Large Cap Fund",
+      "category": "Equity: Large Cap",
+      "parameter": "taxation",
+      "title": "HDFC Top 100 / Large Cap Fund - Mutual Fund Taxation & Capital Gains",
+      "content": "STCG is taxed at 20% if redeemed within 12 months. LTCG above ₹1.25 Lakh per financial year is taxed at 12.5% without indexation if held for more than 12 months.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc top 100 / large cap fund",
+        "taxation",
+        "stcg",
+        "ltcg",
+        "capital gains",
+        "80c",
+        "tax benefit",
+        "tax deduction"
+      ],
+      "metadata": {
+        "equity_taxation": true
+      }
+    },
+    {
+      "chunk_id": "hdfc_large_cap_fund_direct_growth_operations",
+      "scheme_code": "hdfc-large-cap-fund-direct-growth",
+      "scheme_name": "HDFC Top 100 / Large Cap Fund",
+      "category": "Equity: Large Cap",
+      "parameter": "operations",
+      "title": "HDFC Top 100 / Large Cap Fund - Account Statements & Folio Verification",
+      "content": "Obtain account and tax statements online through Groww (Reports section) or by visiting the HDFC Mutual Fund investor service portal. Viewable in the Groww dashboard under Holdings or on the CAMS/KFintech CAS statement.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc top 100 / large cap fund",
+        "download statement",
+        "account statement",
+        "capital gains report",
+        "folio number",
+        "cams",
+        "kfintech"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "hdfc_elss_tax_saver_fund_direct_plan_growth_fund_overview",
+      "scheme_code": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "scheme_name": "HDFC ELSS Tax Saver Fund",
+      "category": "Equity: ELSS / Tax Saver",
+      "parameter": "fund_overview",
+      "title": "HDFC ELSS Tax Saver Fund - Fund Overview & Classification",
+      "content": "HDFC ELSS Tax Saver Fund (Direct Plan - Growth Option) is managed by HDFC Asset Management Company Limited under the Equity: ELSS / Tax Saver category. It is an An open-ended equity linked saving scheme with a statutory lock-in of 3 years and tax benefit under Section 80C. The fund tracks the NIFTY 500 TRI benchmark and is classified as 'Very High' risk on the SEBI Riskometer.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc elss tax saver fund",
+        "fund overview",
+        "category",
+        "benchmark",
+        "riskometer",
+        "nifty 500 tri",
+        "very high"
+      ],
+      "metadata": {
+        "benchmark": "NIFTY 500 TRI",
+        "riskometer": "Very High",
+        "amc": "HDFC Asset Management Company Limited",
+        "fund_type": "An open-ended equity linked saving scheme with a statutory lock-in of 3 years and tax benefit under Section 80C"
+      }
+    },
+    {
+      "chunk_id": "hdfc_elss_tax_saver_fund_direct_plan_growth_expense_ratio",
+      "scheme_code": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "scheme_name": "HDFC ELSS Tax Saver Fund",
+      "category": "Equity: ELSS / Tax Saver",
+      "parameter": "expense_ratio",
+      "title": "HDFC ELSS Tax Saver Fund - Expense Ratio (TER)",
+      "content": "The Total Expense Ratio (TER) for HDFC ELSS Tax Saver Fund Direct Plan - Growth is 1.09%.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc elss tax saver fund",
+        "expense ratio",
+        "ter",
+        "direct plan ter",
+        "management fee",
+        "charges"
+      ],
+      "metadata": {
+        "direct_plan_percentage": 1.09,
+        "regular_plan_percentage": 1.73
+      }
+    },
+    {
+      "chunk_id": "hdfc_elss_tax_saver_fund_direct_plan_growth_exit_load",
+      "scheme_code": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "scheme_name": "HDFC ELSS Tax Saver Fund",
+      "category": "Equity: ELSS / Tax Saver",
+      "parameter": "exit_load",
+      "title": "HDFC ELSS Tax Saver Fund - Exit Load & Holding Duration",
+      "content": "Nil. No exit load is charged for redemption after the completion of the statutory 3-year lock-in period.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc elss tax saver fund",
+        "exit load",
+        "redemption fee",
+        "holding period",
+        "early withdrawal charge",
+        "lock-in"
+      ],
+      "metadata": {
+        "percentage": 0.0,
+        "holding_period_threshold_days": 0
+      }
+    },
+    {
+      "chunk_id": "hdfc_elss_tax_saver_fund_direct_plan_growth_investment_limits",
+      "scheme_code": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "scheme_name": "HDFC ELSS Tax Saver Fund",
+      "category": "Equity: ELSS / Tax Saver",
+      "parameter": "investment_limits",
+      "title": "HDFC ELSS Tax Saver Fund - Minimum SIP & Lump Sum Limits",
+      "content": "The minimum SIP investment is ₹500 and in multiples of ₹500. The minimum lump sum investment amount is ₹500 for initial as well as additional purchases.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc elss tax saver fund",
+        "minimum sip",
+        "min sip",
+        "lump sum",
+        "minimum investment",
+        "initial purchase",
+        "additional purchase"
+      ],
+      "metadata": {
+        "min_sip_amount": 500,
+        "min_lump_sum_amount": 500,
+        "min_additional_investment": 500,
+        "sip_frequency": "Monthly / Quarterly"
+      }
+    },
+    {
+      "chunk_id": "hdfc_elss_tax_saver_fund_direct_plan_growth_lock_in_period",
+      "scheme_code": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "scheme_name": "HDFC ELSS Tax Saver Fund",
+      "category": "Equity: ELSS / Tax Saver",
+      "parameter": "lock_in_period",
+      "title": "HDFC ELSS Tax Saver Fund - Statutory Lock-in Period",
+      "content": "Mandatory 3-year (36 months) lock-in period from the date of allotment for each installment. Units cannot be redeemed, transferred, or switched out during the lock-in period.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc elss tax saver fund",
+        "lock-in period",
+        "lock in",
+        "holding period",
+        "elss lock in",
+        "3 years lock-in",
+        "maturity"
+      ],
+      "metadata": {
+        "has_lock_in": true,
+        "duration_years": 3
+      }
+    },
+    {
+      "chunk_id": "hdfc_elss_tax_saver_fund_direct_plan_growth_taxation",
+      "scheme_code": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "scheme_name": "HDFC ELSS Tax Saver Fund",
+      "category": "Equity: ELSS / Tax Saver",
+      "parameter": "taxation",
+      "title": "HDFC ELSS Tax Saver Fund - Mutual Fund Taxation & Capital Gains",
+      "content": "Investments qualify for tax deduction under Section 80C of the Income Tax Act up to ₹1.5 Lakh per financial year. Not applicable as redemption is locked for 3 years. LTCG above ₹1.25 Lakh per financial year upon redemption after 3 years is taxed at 12.5% without indexation.",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc elss tax saver fund",
+        "taxation",
+        "stcg",
+        "ltcg",
+        "capital gains",
+        "80c",
+        "tax benefit",
+        "tax deduction"
+      ],
+      "metadata": {
+        "equity_taxation": true
+      }
+    },
+    {
+      "chunk_id": "hdfc_elss_tax_saver_fund_direct_plan_growth_operations",
+      "scheme_code": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "scheme_name": "HDFC ELSS Tax Saver Fund",
+      "category": "Equity: ELSS / Tax Saver",
+      "parameter": "operations",
+      "title": "HDFC ELSS Tax Saver Fund - Account Statements & Folio Verification",
+      "content": "Tax saving investment certificates (80C proofs) and account statements can be downloaded via Groww Profile > Reports > Capital Gains & Tax Reports or via HDFC MF website. Check registered folio in Groww dashboard or monthly consolidated account statements (CAS).",
+      "official_source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "hdfc elss tax saver fund",
+        "download statement",
+        "account statement",
+        "capital gains report",
+        "folio number",
+        "cams",
+        "kfintech"
+      ],
+      "metadata": {}
+    },
+    {
+      "chunk_id": "general_operations_statement_download",
+      "scheme_code": "general-operations",
+      "scheme_name": "General Mutual Fund Operations",
+      "category": "Operational Procedures & Statements",
+      "parameter": "statement_download_general",
+      "title": "Mutual Fund Account Statement Download Procedure",
+      "content": "To download mutual fund statements on Groww: Open Groww App > Tap Profile Icon > Select 'Reports' > Choose 'Mutual Fund Statements' or 'Capital Gains Report' > Select Financial Year and email or download PDF. To download statements from HDFC Mutual Fund directly: Visit the official HDFC AMC portal > Navigate to 'Investor Services' > Enter PAN / Folio Number > Authenticate via registered email/mobile OTP > Download Account / Capital Gains Statement. Consolidated Account Statement (CAS) can also be downloaded from CAMS (camsonline.com) or KFintech (kfintech.com) using your registered email and PAN.",
+      "official_source_url": "https://groww.in/mutual-funds",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "download statement",
+        "account statement",
+        "groww statement",
+        "amc statement",
+        "cas statement",
+        "cams",
+        "kfintech"
+      ],
+      "metadata": {
+        "procedure_type": "account_statement"
+      }
+    },
+    {
+      "chunk_id": "general_operations_capital_gains_report",
+      "scheme_code": "general-operations",
+      "scheme_name": "General Mutual Fund Operations",
+      "category": "Operational Procedures & Statements",
+      "parameter": "capital_gains_report_general",
+      "title": "Mutual Fund Capital Gains Tax Report Download (ITR Filing)",
+      "content": "Used for Income Tax Return (ITR) filing to report Short-Term Capital Gains (STCG) and Long-Term Capital Gains (LTCG). Groww App > Profile > Reports > Capital Gains Report > Select Assessment Year > Download Schedule 112A Excel/PDF.",
+      "official_source_url": "https://groww.in/mutual-funds",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "capital gains report",
+        "tax statement",
+        "schedule 112a",
+        "itr filing",
+        "tax report download",
+        "groww tax report"
+      ],
+      "metadata": {
+        "procedure_type": "capital_gains"
+      }
+    },
+    {
+      "chunk_id": "general_operations_educational_resources",
+      "scheme_code": "general-operations",
+      "scheme_name": "General Mutual Fund Operations",
+      "category": "Operational Procedures & Statements",
+      "parameter": "educational_resources_general",
+      "title": "Mutual Fund Educational & Regulatory Resources",
+      "content": "For official investor education and mutual fund guidelines, consult Groww Mutual Funds (https://groww.in/mutual-funds), AMFI Investor Education (https://www.amfiindia.com/investor-corner/knowledge-center), or the SEBI Investor Portal (https://investor.sebi.gov.in). These official portals offer investor guidance, regulatory circulars, and dispute resolution workflows.",
+      "official_source_url": "https://groww.in/mutual-funds",
+      "last_updated": "2024-04-01",
+      "keywords": [
+        "amfi",
+        "sebi",
+        "investor education",
+        "guidelines",
+        "groww mutual funds",
+        "complaint",
+        "regulations"
+      ],
+      "metadata": {
+        "resource_type": "education"
+      }
+    }
+  ]
+}

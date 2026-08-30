@@ -1,0 +1,105 @@
+{
+  "amc": "HDFC Asset Management Company Limited",
+  "total_schemes": 5,
+  "sources": [
+    {
+      "id": "hdfc-mid-cap-fund-direct-growth",
+      "name": "HDFC Mid-Cap Opportunities Fund",
+      "category": "Equity: Mid Cap",
+      "raw_file": "data/raw/hdfc_mid_cap_fund.json",
+      "canonical_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+      "aliases": [
+        "hdfc mid cap",
+        "hdfc midcap",
+        "hdfc mid-cap",
+        "hdfc mid cap opportunities",
+        "hdfc mid cap opportunities fund",
+        "mid cap fund",
+        "midcap"
+      ],
+      "last_updated": "2024-04-01"
+    },
+    {
+      "id": "hdfc-small-cap-fund-direct-growth",
+      "name": "HDFC Small Cap Fund",
+      "category": "Equity: Small Cap",
+      "raw_file": "data/raw/hdfc_small_cap_fund.json",
+      "canonical_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+      "aliases": [
+        "hdfc small cap",
+        "hdfc smallcap",
+        "hdfc small-cap",
+        "hdfc small cap fund",
+        "small cap fund",
+        "smallcap"
+      ],
+      "last_updated": "2024-04-01"
+    },
+    {
+      "id": "hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+      "name": "HDFC Gold ETF Fund of Fund",
+      "category": "Commodities: Gold / Fund of Funds",
+      "raw_file": "data/raw/hdfc_gold_etf_fof.json",
+      "canonical_url": "https://groww.in/mutual-funds/hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+      "aliases": [
+        "hdfc gold etf",
+        "hdfc gold fof",
+        "hdfc gold fund of fund",
+        "hdfc gold",
+        "gold etf fund of fund",
+        "gold fof"
+      ],
+      "last_updated": "2024-04-01"
+    },
+    {
+      "id": "hdfc-large-cap-fund-direct-growth",
+      "name": "HDFC Top 100 / Large Cap Fund",
+      "category": "Equity: Large Cap",
+      "raw_file": "data/raw/hdfc_large_cap_fund.json",
+      "canonical_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "aliases": [
+        "hdfc top 100",
+        "hdfc top 100 fund",
+        "hdfc large cap",
+        "hdfc large cap fund",
+        "hdfc top100",
+        "large cap fund"
+      ],
+      "last_updated": "2024-04-01"
+    },
+    {
+      "id": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "name": "HDFC ELSS Tax Saver Fund",
+      "category": "Equity: ELSS / Tax Saver",
+      "raw_file": "data/raw/hdfc_elss_tax_saver_fund.json",
+      "canonical_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "aliases": [
+        "hdfc elss",
+        "hdfc elss tax saver",
+        "hdfc tax saver",
+        "hdfc elss fund",
+        "elss tax saver",
+        "tax saver fund",
+        "elss"
+      ],
+      "last_updated": "2024-04-01"
+    },
+    {
+      "id": "general-operations",
+      "name": "General Mutual Fund Operations",
+      "category": "Operational Procedures & Statements",
+      "raw_file": "data/raw/general_operations.json",
+      "canonical_url": "https://groww.in/mutual-funds",
+      "aliases": [
+        "statement",
+        "capital gains",
+        "download report",
+        "account statement",
+        "tax statement",
+        "itr statement",
+        "folio"
+      ],
+      "last_updated": "2024-04-01"
+    }
+  ]
+}

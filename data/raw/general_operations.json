@@ -1,0 +1,20 @@
+{
+  "entity_name": "General Mutual Fund Operations & Account Services",
+  "category": "Operational Procedures & Statements",
+  "statement_download": {
+    "groww_procedure": "To download mutual fund statements on Groww: Open Groww App > Tap Profile Icon > Select 'Reports' > Choose 'Mutual Fund Statements' or 'Capital Gains Report' > Select Financial Year and email or download PDF.",
+    "amc_procedure": "To download statements from HDFC Mutual Fund directly: Visit the official HDFC AMC portal > Navigate to 'Investor Services' > Enter PAN / Folio Number > Authenticate via registered email/mobile OTP > Download Account / Capital Gains Statement.",
+    "cas_procedure": "Consolidated Account Statement (CAS) can also be downloaded from CAMS (camsonline.com) or KFintech (kfintech.com) using your registered email and PAN."
+  },
+  "capital_gains_report": {
+    "purpose": "Used for Income Tax Return (ITR) filing to report Short-Term Capital Gains (STCG) and Long-Term Capital Gains (LTCG).",
+    "download_steps": "Groww App > Profile > Reports > Capital Gains Report > Select Assessment Year > Download Schedule 112A Excel/PDF."
+  },
+  "educational_resources": {
+    "groww_mf_hub": "https://groww.in/mutual-funds",
+    "amfi_investor_education": "https://www.amfiindia.com/investor-corner/knowledge-center",
+    "sebi_investor_portal": "https://investor.sebi.gov.in"
+  },
+  "official_source_url": "https://groww.in/mutual-funds",
+  "last_updated": "2024-04-01"
+}

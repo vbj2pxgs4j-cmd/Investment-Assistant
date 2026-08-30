@@ -1,0 +1,43 @@
+{
+  "scheme_name": "HDFC Mid-Cap Opportunities Fund",
+  "scheme_code": "hdfc-mid-cap-fund-direct-growth",
+  "plan_type": "Direct Plan - Growth Option",
+  "amc": "HDFC Asset Management Company Limited",
+  "category": "Equity: Mid Cap",
+  "fund_type": "Open-ended equity scheme predominantly investing in mid cap stocks",
+  "benchmark_index": "NIFTY Midcap 150 TRI",
+  "riskometer": "Very High",
+  "lock_in_period": {
+    "has_lock_in": false,
+    "duration_years": 0,
+    "description": "Nil. This is an open-ended equity fund with no statutory lock-in period."
+  },
+  "expense_ratio": {
+    "direct_plan_percentage": 0.74,
+    "regular_plan_percentage": 1.48,
+    "description": "The Total Expense Ratio (TER) for HDFC Mid-Cap Opportunities Fund Direct Plan - Growth is 0.74% (inclusive of GST)."
+  },
+  "exit_load": {
+    "percentage": 1.0,
+    "holding_period_threshold_days": 365,
+    "description": "An exit load of 1.00% is applicable for units redeemed or switched out within 1 year (365 days) from the date of allotment. No exit load is payable for units redeemed after 1 year."
+  },
+  "investment_limits": {
+    "min_sip_amount": 100,
+    "min_lump_sum_amount": 100,
+    "min_additional_investment": 100,
+    "sip_frequency": "Monthly / Quarterly",
+    "description": "The minimum SIP investment amount is ₹100 per installment. The minimum lump sum investment amount for initial as well as additional purchases is ₹100."
+  },
+  "taxation": {
+    "equity_taxation": true,
+    "short_term_capital_gains": "STCG is taxed at 20% if redeemed within 12 months.",
+    "long_term_capital_gains": "LTCG above ₹1.25 Lakh in a financial year is taxed at 12.5% without indexation if held for more than 12 months."
+  },
+  "operations": {
+    "account_statement_procedure": "Account statements and capital gains reports can be downloaded online from the Groww App under Profile > Reports or directly via the HDFC MF online investor portal using your PAN and Folio number.",
+    "folio_lookup": "Check registered folio numbers in your Groww mutual funds dashboard or consolidated account statement (CAS)."
+  },
+  "official_source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+  "last_updated": "2024-04-01"
+}

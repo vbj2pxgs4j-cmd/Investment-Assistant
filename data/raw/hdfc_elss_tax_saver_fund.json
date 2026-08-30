@@ -1,0 +1,44 @@
+{
+  "scheme_name": "HDFC ELSS Tax Saver Fund",
+  "scheme_code": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+  "plan_type": "Direct Plan - Growth Option",
+  "amc": "HDFC Asset Management Company Limited",
+  "category": "Equity: ELSS / Tax Saver",
+  "fund_type": "An open-ended equity linked saving scheme with a statutory lock-in of 3 years and tax benefit under Section 80C",
+  "benchmark_index": "NIFTY 500 TRI",
+  "riskometer": "Very High",
+  "lock_in_period": {
+    "has_lock_in": true,
+    "duration_years": 3,
+    "description": "Mandatory 3-year (36 months) lock-in period from the date of allotment for each installment. Units cannot be redeemed, transferred, or switched out during the lock-in period."
+  },
+  "expense_ratio": {
+    "direct_plan_percentage": 1.09,
+    "regular_plan_percentage": 1.73,
+    "description": "The Total Expense Ratio (TER) for HDFC ELSS Tax Saver Fund Direct Plan - Growth is 1.09%."
+  },
+  "exit_load": {
+    "percentage": 0.0,
+    "holding_period_threshold_days": 0,
+    "description": "Nil. No exit load is charged for redemption after the completion of the statutory 3-year lock-in period."
+  },
+  "investment_limits": {
+    "min_sip_amount": 500,
+    "min_lump_sum_amount": 500,
+    "min_additional_investment": 500,
+    "sip_frequency": "Monthly / Quarterly",
+    "description": "The minimum SIP investment is ₹500 and in multiples of ₹500. The minimum lump sum investment amount is ₹500 for initial as well as additional purchases."
+  },
+  "taxation": {
+    "equity_taxation": true,
+    "tax_deduction": "Investments qualify for tax deduction under Section 80C of the Income Tax Act up to ₹1.5 Lakh per financial year.",
+    "short_term_capital_gains": "Not applicable as redemption is locked for 3 years.",
+    "long_term_capital_gains": "LTCG above ₹1.25 Lakh per financial year upon redemption after 3 years is taxed at 12.5% without indexation."
+  },
+  "operations": {
+    "account_statement_procedure": "Tax saving investment certificates (80C proofs) and account statements can be downloaded via Groww Profile > Reports > Capital Gains & Tax Reports or via HDFC MF website.",
+    "folio_lookup": "Check registered folio in Groww dashboard or monthly consolidated account statements (CAS)."
+  },
+  "official_source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+  "last_updated": "2024-04-01"
+}

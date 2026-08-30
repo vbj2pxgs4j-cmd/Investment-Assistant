@@ -1,0 +1,42 @@
+{
+  "scheme_name": "HDFC Gold ETF Fund of Fund",
+  "scheme_code": "hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+  "plan_type": "Direct Plan - Growth Option",
+  "amc": "HDFC Asset Management Company Limited",
+  "category": "Commodities: Gold / Fund of Funds",
+  "fund_type": "Open-ended Fund of Fund scheme investing in units of HDFC Gold Exchange Traded Fund (ETF)",
+  "benchmark_index": "Domestic Price of Physical Gold",
+  "riskometer": "High",
+  "lock_in_period": {
+    "has_lock_in": false,
+    "duration_years": 0,
+    "description": "Nil. There is no statutory lock-in period for this fund of funds scheme."
+  },
+  "expense_ratio": {
+    "direct_plan_percentage": 0.25,
+    "regular_plan_percentage": 0.55,
+    "description": "The Total Expense Ratio (TER) for HDFC Gold ETF Fund of Fund Direct Plan - Growth is 0.25% (investors also bear the underlying ETF scheme expenses)."
+  },
+  "exit_load": {
+    "percentage": 1.0,
+    "holding_period_threshold_days": 15,
+    "description": "An exit load of 1.00% is applicable if units are redeemed or switched out on or before 15 days from the date of allotment. No exit load is payable if redeemed after 15 days."
+  },
+  "investment_limits": {
+    "min_sip_amount": 100,
+    "min_lump_sum_amount": 100,
+    "min_additional_investment": 100,
+    "sip_frequency": "Monthly / Quarterly",
+    "description": "The minimum SIP investment is ₹100 per installment. The minimum lump sum investment amount is ₹100 for initial as well as additional purchases."
+  },
+  "taxation": {
+    "equity_taxation": false,
+    "tax_regime": "Specified Mutual Fund / Debt & Commodities Taxation rules as per applicable Finance Act provisions based on holding duration and investor tax slab."
+  },
+  "operations": {
+    "account_statement_procedure": "Download statements via Groww Profile > Reports > Mutual Funds or through HDFC AMC / CAMS online facilities.",
+    "folio_lookup": "Accessible in your Groww portfolio and consolidated account statements (CAS)."
+  },
+  "official_source_url": "https://groww.in/mutual-funds/hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+  "last_updated": "2024-04-01"
+}

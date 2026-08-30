@@ -1,0 +1,43 @@
+{
+  "scheme_name": "HDFC Small Cap Fund",
+  "scheme_code": "hdfc-small-cap-fund-direct-growth",
+  "plan_type": "Direct Plan - Growth Option",
+  "amc": "HDFC Asset Management Company Limited",
+  "category": "Equity: Small Cap",
+  "fund_type": "Open-ended equity scheme predominantly investing in small cap stocks",
+  "benchmark_index": "BSE 250 SmallCap TRI",
+  "riskometer": "Very High",
+  "lock_in_period": {
+    "has_lock_in": false,
+    "duration_years": 0,
+    "description": "Nil. This is an open-ended equity fund with no statutory lock-in period."
+  },
+  "expense_ratio": {
+    "direct_plan_percentage": 0.68,
+    "regular_plan_percentage": 1.54,
+    "description": "The Total Expense Ratio (TER) for HDFC Small Cap Fund Direct Plan - Growth is 0.68% (inclusive of GST)."
+  },
+  "exit_load": {
+    "percentage": 1.0,
+    "holding_period_threshold_days": 365,
+    "description": "An exit load of 1.00% is charged if units are redeemed or switched out within 1 year (365 days) from allotment. Nil exit load after 1 year."
+  },
+  "investment_limits": {
+    "min_sip_amount": 100,
+    "min_lump_sum_amount": 100,
+    "min_additional_investment": 100,
+    "sip_frequency": "Monthly / Quarterly",
+    "description": "The minimum SIP investment is ₹100 per installment. The minimum lump sum purchase amount is ₹100 for both initial and additional purchases."
+  },
+  "taxation": {
+    "equity_taxation": true,
+    "short_term_capital_gains": "STCG is taxed at 20% if redeemed within 12 months.",
+    "long_term_capital_gains": "LTCG above ₹1.25 Lakh per financial year is taxed at 12.5% without indexation if held for more than 12 months."
+  },
+  "operations": {
+    "account_statement_procedure": "Investors can generate consolidated or scheme-specific account statements from the Groww App (Profile > Reports > Mutual Fund Statements) or via the HDFC MF portal.",
+    "folio_lookup": "Registered folio details can be verified in the Groww dashboard or via CAMS/KFintech CAS statements."
+  },
+  "official_source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+  "last_updated": "2024-04-01"
+}

@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Environment Variables & Secrets
+.env
+.env.local
+*.secret
+
+# Pytest / Test Artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+junit.xml
+
+# Vector Store local databases & SQLite lock files
+data/vector_store/*
+!data/vector_store/.gitkeep
+
+# IDEs & System files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node / Frontend build (if applicable)
+node_modules/
+dist/

@@ -18,6 +18,18 @@ logger = logging.getLogger(__name__)
 COLLECTION_NAME = "mutual_fund_facts"
 
 
+_shared_embedding_functions: Dict[str, Any] = {}
+
+
+def get_cached_embedding_function(model_name: str) -> Any:
+    """Obtain or cache the SentenceTransformerEmbeddingFunction singleton to avoid reloading weights repeatedly."""
+    if model_name not in _shared_embedding_functions:
+        _shared_embedding_functions[model_name] = embedding_functions.SentenceTransformerEmbeddingFunction(
+            model_name=model_name
+        )
+    return _shared_embedding_functions[model_name]
+
+
 class VectorStoreService:
     """ChromaDB Vector Store Service for atomic knowledge chunk indexing and retrieval."""
 
@@ -32,10 +44,8 @@ class VectorStoreService:
             settings=ChromaSettings(anonymized_telemetry=False, allow_reset=True),
         )
 
-        # Initialize sentence-transformers embedding function
-        self.embedding_fn = embedding_functions.SentenceTransformerEmbeddingFunction(
-            model_name=self.settings.embedding_model_name
-        )
+        # Initialize sentence-transformers embedding function (cached singleton)
+        self.embedding_fn = get_cached_embedding_function(self.settings.embedding_model_name)
 
         self._collection = None
 

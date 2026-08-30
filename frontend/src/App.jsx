@@ -7,6 +7,7 @@ import ChatInput from './components/ChatInput';
 import SchemeExplorer from './components/SchemeExplorer';
 import TelemetryModal from './components/TelemetryModal';
 import { sendChatQuery, fetchSchemes, fetchHealth } from './services/api';
+import { executeClientRAG } from './services/clientRAGEngine';
 
 const FALLBACK_SCHEMES = [
   {
@@ -157,18 +158,21 @@ export default function App() {
         },
       ]);
     } catch (error) {
-      console.error('Chat query error:', error);
+      console.warn('Chat query fallback engaged:', error);
+      const fallbackData = executeClientRAG(query);
       setMessages((prev) => [
         ...prev,
         {
           id: assistantMessageId,
           sender: 'assistant',
-          text: `Unable to process your question (${error.message}). Please ensure the FastAPI backend is running on http://localhost:8000.`,
-          status: 'error',
-          latency_ms: 0,
-          source_url: 'https://groww.in/mutual-funds',
-          last_updated: '2024-04-01',
-          sentence_count: 1,
+          text: fallbackData.response,
+          status: fallbackData.status,
+          intent: fallbackData.intent,
+          latency_ms: fallbackData.latency_ms,
+          source_url: fallbackData.source_url,
+          last_updated: fallbackData.last_updated,
+          sentence_count: fallbackData.sentence_count,
+          disclaimer: fallbackData.disclaimer,
           is_fallback: true,
         },
       ]);

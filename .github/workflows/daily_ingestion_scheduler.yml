@@ -14,6 +14,10 @@ jobs:
     name: Crawl, Normalize, Chunk, Embed & Update Vector Store
     runs-on: ubuntu-latest
 
+    env:
+      PYTHONPATH: .
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -40,14 +44,10 @@ jobs:
           pip install -r requirements.txt
 
       - name: Execute Daily Ingestion Pipeline
-        env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
           python -m backend.app.rag.daily_ingestion --verify --force
 
       - name: Run Integrity & Retrieval Smoke Tests
-        env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
           pytest backend/tests/test_daily_ingestion.py backend/tests/test_retriever.py backend/tests/test_api_endpoints.py -v
 

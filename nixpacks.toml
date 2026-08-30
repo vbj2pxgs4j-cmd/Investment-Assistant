@@ -8,10 +8,5 @@ cmds = [
     "pip install -r requirements.txt"
 ]
 
-[phases.build]
-cmds = [
-    "python -m backend.app.rag.daily_ingestion --verify --force"
-]
-
 [start]
 cmd = "uvicorn backend.main:app --host 0.0.0.0 --port ${PORT:-8000} --workers 2"

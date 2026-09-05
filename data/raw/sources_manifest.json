@@ -17,7 +17,7 @@
         "mid cap fund",
         "midcap"
       ],
-      "last_updated": "2026-09-04"
+      "last_updated": "2026-09-05"
     },
     {
       "id": "hdfc-small-cap-fund-direct-growth",
@@ -33,7 +33,7 @@
         "small cap fund",
         "smallcap"
       ],
-      "last_updated": "2026-09-04"
+      "last_updated": "2026-09-05"
     },
     {
       "id": "hdfc-gold-etf-fund-of-fund-direct-plan-growth",
@@ -49,7 +49,7 @@
         "gold etf fund of fund",
         "gold fof"
       ],
-      "last_updated": "2026-09-04"
+      "last_updated": "2026-09-05"
     },
     {
       "id": "hdfc-large-cap-fund-direct-growth",
@@ -65,7 +65,7 @@
         "hdfc top100",
         "large cap fund"
       ],
-      "last_updated": "2026-09-04"
+      "last_updated": "2026-09-05"
     },
     {
       "id": "hdfc-elss-tax-saver-fund-direct-plan-growth",
@@ -82,7 +82,7 @@
         "tax saver fund",
         "elss"
       ],
-      "last_updated": "2026-09-04"
+      "last_updated": "2026-09-05"
     },
     {
       "id": "general-operations",
@@ -99,7 +99,7 @@
         "itr statement",
         "folio"
       ],
-      "last_updated": "2026-09-04"
+      "last_updated": "2026-09-05"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "amc": "HDFC Asset Management Company Limited",
   "total_schemes": 5,
-  "last_updated": "2026-09-04",
+  "last_updated": "2026-09-05",
   "schemes": [
     {
       "scheme_name": "HDFC Mid-Cap Opportunities Fund",
@@ -46,7 +46,7 @@
         "folio_lookup": "Check registered folio numbers in your Groww mutual funds dashboard or consolidated account statement (CAS)."
       },
       "official_source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
-      "last_updated": "2026-09-04"
+      "last_updated": "2026-09-05"
     },
     {
       "scheme_name": "HDFC Small Cap Fund",
@@ -91,7 +91,7 @@
         "folio_lookup": "Registered folio details can be verified in the Groww dashboard or via CAMS/KFintech CAS statements."
       },
       "official_source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
-      "last_updated": "2026-09-04"
+      "last_updated": "2026-09-05"
     },
     {
       "scheme_name": "HDFC Gold ETF Fund of Fund",
@@ -136,7 +136,7 @@
         "folio_lookup": "Accessible in your Groww portfolio and consolidated account statements (CAS)."
       },
       "official_source_url": "https://groww.in/mutual-funds/hdfc-gold-etf-fund-of-fund-direct-plan-growth",
-      "last_updated": "2026-09-04"
+      "last_updated": "2026-09-05"
     },
     {
       "scheme_name": "HDFC Top 100 / Large Cap Fund",
@@ -181,7 +181,7 @@
         "folio_lookup": "Viewable in the Groww dashboard under Holdings or on the CAMS/KFintech CAS statement."
       },
       "official_source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
-      "last_updated": "2026-09-04"
+      "last_updated": "2026-09-05"
     },
     {
       "scheme_name": "HDFC ELSS Tax Saver Fund",
@@ -226,7 +226,7 @@
         "folio_lookup": "Check registered folio in Groww dashboard or monthly consolidated account statements (CAS)."
       },
       "official_source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
-      "last_updated": "2026-09-04"
+      "last_updated": "2026-09-05"
     }
   ],
   "general_operations": {
@@ -247,6 +247,6 @@
       "sebi_investor_portal": "https://investor.sebi.gov.in"
     },
     "official_source_url": "https://groww.in/mutual-funds",
-    "last_updated": "2026-09-04"
+    "last_updated": "2026-09-05"
   }
 }
